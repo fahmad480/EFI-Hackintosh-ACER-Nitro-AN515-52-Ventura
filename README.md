@@ -1,12 +1,14 @@
-# EFI Hackintosh ACER Nitro AN515-52 Ventura
+# EFI Hackintosh ACER Nitro AN515-52 Ventura (And Sequoia)
 
 ![Desktop Screenshot](https://github.com/fahmad480/EFI-Hackintosh-ACER-Nitro-AN515-52-Ventura/blob/main/Documentation/SS1.jpg?raw=true)
 
 ## Installation
 Please follow this [Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/) and download RAW Hackintosh Ventura from [Olarila](https://www.olarila.com/topic/6278-olarila-vanilla-images-macos-installer/)
 
+The Sequoia version is available in the "OpenCore (Sequoia)" folder.
+
 ## My Device Condition
-- Dual Boot (Windows 11 & Hackintosh Ventura)
+- Dual Boot (Windows 11 & Hackintosh Ventura (And Sequoia))
 - EFI on 1TB SSD VenomRX, but all bootable (Windows and Hackintosh) is from 512GB NVME M.2 Adata XPG SX8200 Pro
 - Bootable manually update using BooticeX64
 
@@ -41,9 +43,9 @@ Please follow this [Dortania Guide](https://dortania.github.io/OpenCore-Install-
 - Bluetooth (Works but can't connect to any device even wireless mouse)
 - Battery Indicator
 - All USB Ports (2x USB Type A 2.0, 1x USB Type A 3.0, 1x USB Type C)
+- Airdrop (But you need to change M.2 WiFi & Bluetooth card to BCM94360NG Wi-FI & Bluetooth M.2 Card)
 - Etc
 
 ## What's Not Working?
-- Nvidia GTX1050 (GTX 1050 is not supported by Ventura)
+- Nvidia GTX1050 (GTX 1050 is not supported by Ventura above)
 - HDMI Output and Audio (Because HDMI Port routed from eGPU/Nvidia)
-- Airdrop (You need to change M.2 WiFi & Bluetooth card to BCM94360NG Wi-FI & Bluetooth M.2 Card)
